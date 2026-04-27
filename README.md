@@ -1,2 +1,13 @@
 # Coursera-Capstone-Bike-Share
-This is a final assignment that my coursera offered me to do as I wrap up my Google Data Analytics program. This will cover the difference between casual customers and annual memebrs.
+This is a final assignment that my coursera offered me to do as I wrap up my Google Data Analytics Professional Certificate program. This will cover the difference between casual customers and annual memebrs.
+
+##The Process
+At first, it seems simple enough to get the files I need for the study case but I had no idea how huge the data were that excel was unable to handle.
+Or maybe it's my laptop that can't handle it. I had upload issues on BigQuery so my final answer was to use VS Code which is modified into a Python Jupyter Notebook. Now with these out of the way, I can get the analysis atarted.
+
+##Analyziing it almost crashed my laptop
+As I run these, I tried to get the goals I need so I summarize it by combining the 12 files from 2025 as the pdf document. Running it took some time because some of these had millions of rows per file. The only problematic part is that when I close the notebook for another day but I will need to rerun it because hwo big the files were. I noticed each time I do thart, it slows down my laptop so bad I couldn't move my curser. The first time rerunning it took 6 minutes, the second time was 15 minutes. When i had to close it again because I was doing some errands. I didn't want to go though it all over again because I do not want to get a blue screen so I opened a new notebook within my same project folder. I got what I need which was the weekly summary and the yearly summary "condensed" to fit into my tableau but it does not affect my laptop's performance. I got 3 essential summaries I will be using so now I ccan move on to Tableau.
+
+##Visualizing and summarizing the case
+With these at hand I took these files to tableau to answer the questions my stakeholder have asked. I ran it with 2 side by side bar graphs to show the usage and the amount of sessions whether they correlate it. Then I show the map where these are active which is in Chicago, IL. As expected these are more active in more metroploitan areas for people who want to explore the city or perform activities or business related transportations. The data shows that The members has more ride seesions than the casuals while casueals use it longer than than the members. By speculation it is because the casuals might feel skeptical of using memberships but they still use it for numerous activities. The way I see it, I suggest we upsell the members to try it to have a taste if these are the casuals that uses it for more activities in that way they can rpduce more memebers in the process. Maybe trying it with a survey to know their feedback and what they suggest will help with their new proposals.
+
